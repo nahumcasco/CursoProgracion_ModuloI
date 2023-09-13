@@ -26,11 +26,10 @@
 		//Constructores
 		public Persona() { }
 
-		public Persona(string nombre, decimal estatura, int edad)
+		public Persona(string nombre, DateTime fechaNacimiento)
 		{
-			Nombre=nombre;
-			Estatura=estatura;
-			Edad=edad;
+			Nombre = nombre;
+			FechaNacimiento = fechaNacimiento;
 		}
 
 		public Persona(string nombre, decimal estatura, int edad, string genero, DateTime fechaNacimiento)
