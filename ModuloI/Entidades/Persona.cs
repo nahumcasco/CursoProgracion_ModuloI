@@ -3,7 +3,7 @@
 	public class Persona
 	{
 		//Atributos
-		private string nombre;
+		//private string nombre;
 		//private decimal estatura;
 		//private int edad;
 		//private string genero;
@@ -12,11 +12,7 @@
 
 
 		//Propiedades
-		public string Nombre
-		{
-			get { return nombre; }
-			set { nombre = value; }
-		}
+		public string Nombre { get; set; }
 
 		public decimal Estatura { get; set; }
 		public int Edad { get; set; }
